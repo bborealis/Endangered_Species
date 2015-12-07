@@ -1,6 +1,5 @@
 
 .map {
-
   position : fixed;
 
 }
@@ -11,33 +10,71 @@
 
 .animal {
   max-width : 8vw;
+  position : absolute;
 }
 
+.animal img {
+  box-shadow: 0px 9px 20px -2px rgba(0,0,0,0.8);
+  border: 1px solid red;
+
+}
 
 .animalname {
+  display : inline-block;
   opacity: 0;
   transition: all 0.5s;
+  background: #FFF;
+  position: absolute;
+  width:150px;
+  /*height:100%;*/
+  top:0;
+  left:0;
+  /*z-index: 2;*/
+  text-align:justify;
+  border: 1px solid green;
+  box-shadow: 0px 9px 20px -2px rgba(0,0,0,0.8);
 }
+
+.rightsidename {
+  right:0;
+  left:unset;
+}
+
 
 .animal:hover .animalname {
-  opacity : 1;
+  opacity : 0.6;
+  /*width:100%;
+  height:100%;*/
+  color:#000000;
+  /*position: absolute;*/
 }
 
-
 .wolverine {
-  position: absolute;
+
   top:58%;
   right:8%;
 }
 
 .bat {
-  position : absolute;
+
   top: 40%;
   right: 70%;
 }
 
 .bigfoot {
-  position : absolute;
+
   top: 10%;
   right: 80%;
+}
+
+.polar {
+
+  top : 2%;
+  right: 90%;
+}
+
+.penguin {
+
+  top : 70%;
+  right: 65%;
 }
