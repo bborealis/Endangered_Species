@@ -13,6 +13,17 @@
   max-width : 8vw;
 }
 
+
+.animalname {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.animal:hover .animalname {
+  opacity : 1;
+}
+
+
 .wolverine {
   position: absolute;
   top:58%;
@@ -23,6 +34,10 @@
   position : absolute;
   top: 40%;
   right: 70%;
+}
 
-
+.bigfoot {
+  position : absolute;
+  top: 10%;
+  right: 80%;
 }
