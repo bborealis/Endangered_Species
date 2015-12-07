@@ -1,0 +1,28 @@
+
+.map {
+
+  position : fixed;
+
+}
+
+.map img {
+  width :100%;
+}
+
+.animal {
+  max-width : 8vw;
+}
+
+.wolverine {
+  position: absolute;
+  top:58%;
+  right:8%;
+}
+
+.bat {
+  position : absolute;
+  top: 40%;
+  right: 70%;
+
+
+}
